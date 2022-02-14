@@ -1,0 +1,110 @@
+/* Navigation Section */
+
+#navbar{
+    flex-direction: column;
+}
+
+#navbar ul li a{
+    font-size: 0.5rem;
+    padding: 0px 5px;
+}
+
+/* Home Section */
+
+#home{
+    padding: 10px 25px;
+    height: 250px;
+}
+
+#home:before{
+    height: 400px;
+}
+
+#home h1{
+    font-size: 1.3rem;
+    padding: 7px 10px;
+    margin: 10px;
+}
+
+#home p{
+    font-size: 0.7rem;
+    padding: 0px 10px;
+    margin: 5px;
+}
+
+#home .btn{
+    font-size: 0.4rem;
+    padding: 3px 7px;
+
+}
+
+/* Courses Section */
+
+#courses{
+    margin: 20px;
+    padding-top: 70px;
+}
+
+#courses .heading{
+    margin-bottom: 40px;
+    
+}
+
+#courses .heading .h-primary{
+    padding-bottom: 0px;
+
+}
+
+#courses .row{
+    flex-direction: column;
+    margin-top: 60px;
+    
+}
+
+#courses .courses-col{
+    margin-bottom: 30px;
+}
+
+
+/* Campus Section */
+
+#campus .row{
+    flex-direction: column;
+    overflow: hidden;
+    
+}
+
+#campus .courses-col{
+    margin-bottom: 30px;
+}
+
+/* Facilities Section */
+
+#facility .row{
+    flex-direction: column;
+}
+
+#facility .facility-col{
+    margin: 0 20px;
+    margin-bottom: 20px;
+}
+
+/* Testimonial Section */
+
+#testimonial .row{
+    flex-direction: column;
+}
+
+#testimonial .testimonial-col{
+    padding: 20px;
+    margin: 20px;
+    width: 80%;
+}
+
+
+/* Call To Action Section */
+
+#cta h1{
+    font-size: 1.5rem;
+}
+

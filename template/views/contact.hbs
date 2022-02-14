@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Best Online Website of XYZ University | XYZUniversity.com</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/form.css">
+    <link rel="stylesheet" media="screen and (max-width: 1000px)" href="css/phone.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Chakra+Petch:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">   <!--Used For Star-->
+</head>
+<body>
+
+    <!-- Header -->
+    <nav id="navbar">
+        <div id="logo">
+            <a href="/"><img src="./img/logo2.png"  alt="XYZUniversity.com"></a>
+        </div>
+
+        <ul>
+            <li class="items"><a href="/">Home</a></li>
+            <li class="items"><a href="/courses">Courses</a></li>
+            <li class="items"><a href="/campus">Campus</a></li>
+            <li class="items"><a href="/about">About Us</a></li>
+            <li class="items"><a href="/blog">Blog</a></li>
+            <li class="items"><a href="/contact">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    {{!-- Form --}}
+    <div class="container">
+        <div class="title">For Queries</div>
+        <form action="/contact" method="POST">
+            <div class="user-details">
+
+                <!-- User Details -->
+                <div class="input-box">
+                    <span class="details">Name</span>
+                    <input type="text" placeholder="Enter Your Name" required name="name">
+                </div>
+                <div class="input-box">
+                    <span class="details">Username</span>
+                    <input type="text" placeholder="Enter Your Username" required name="username">
+                </div>
+                <div class="input-box">
+                    <span class="details">E-mail</span>
+                    <input type="text" placeholder="Enter Your E-mail" required name="email">
+                </div>
+                <div class="input-box">
+                    <span class="details">Phone Number</span>
+                    <input type="text" placeholder="Enter Your Phone Number" required name="phone">
+                </div>
+                <div class="input-message">
+                    <span class="details">Message</span>
+                    <input type="text" placeholder="Ask Anything" name="message">
+                </div>
+            </div>
+
+            <!-- Button -->
+            <button type="submit" class="button">
+                Submit
+            </button>
+        </form>
+    </div>
+
+    <!-- Footer Section -->
+    <section id="footer">
+        <h4 class="h-primary">About Us</h4>
+        <p class="p-primary">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita ipsum consectetur necessitatibus. <br> Iste, quia asperiores. Lorem ipsum dolor sit Lorem ipsum dolor sit amet. </p>
+
+        <div class="icons">
+            <a href="https://www.facebook.com" target="_blank"><i class="fa fa-facebook"></i></a>
+            <a href="https://www.instagram.com" target="_blank"><i class="fa fa-instagram"></i></a>
+            <a href="https://www.twitter.com" target="_blank"><i class="fa fa-twitter"></i></a>
+            <a href="https://www.linkedin.com" target="_blank"><i class="fa fa-linkedin"></i></a>
+        </div>
+
+        <p class="p-primary">Made with <i class="fa fa-heart"> by Ritish Shah</i></p>
+    </section>
+</body>
+</html>
